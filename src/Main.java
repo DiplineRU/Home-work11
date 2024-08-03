@@ -24,7 +24,7 @@ public class Main {
         }
     }
 
-    private static void printInfoAboutVersion(int OC, int deviceYear) {
+    private static void printInfoAboutVersion(int os, int deviceYear) {
         if (OC != 0 && OC != 1) {
             System.out.println("Неккоректная ОС!");
             return;
